@@ -4,16 +4,13 @@ namespace TechFinanceira.Domain
 {
     public class Conta
     {
-        // Propriedades com "private set"
-        // Ninguém de fora pode fazer: conta.Saldo = 1000000;
+        // Encapsulamento
         public Guid Id { get; private set; }
         public string Numero { get; private set; }
         public decimal Saldo { get; private set; }
         public bool Ativa { get; private set; }
 
         // Construtor para criar uma conta nova
-        // O EF Core precisa de um construtor vazio, mas podemos deixá-lo privado ou protegido se quisermos ser puristas.
-        // Para simplificar agora, vamos usar um construtor público que obriga a passar os dados iniciais.
         public Conta(string numero, decimal saldoInicial)
         {
             if (string.IsNullOrWhiteSpace(numero))
@@ -28,7 +25,7 @@ namespace TechFinanceira.Domain
             Ativa = true;
         }
 
-        // Métodos de Negócio (Onde a regra mora!)
+        // Métodos de Negócio
         public void Debitar(decimal valor)
         {
             if (!Ativa)
