@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechFinanceira.Infrastructu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechFinanceira.Api", "TechFinanceira.Api\TechFinanceira.Api.csproj", "{D77466A2-3787-4C7B-BECB-749A8CDF4590}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechFinanceira.Tests", "TechFinanceira.Tests\TechFinanceira.Tests.csproj", "{C074A984-022D-4158-AAC1-5B82523B0010}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,6 +68,18 @@ Global
 		{D77466A2-3787-4C7B-BECB-749A8CDF4590}.Release|x64.Build.0 = Release|Any CPU
 		{D77466A2-3787-4C7B-BECB-749A8CDF4590}.Release|x86.ActiveCfg = Release|Any CPU
 		{D77466A2-3787-4C7B-BECB-749A8CDF4590}.Release|x86.Build.0 = Release|Any CPU
+		{C074A984-022D-4158-AAC1-5B82523B0010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C074A984-022D-4158-AAC1-5B82523B0010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C074A984-022D-4158-AAC1-5B82523B0010}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C074A984-022D-4158-AAC1-5B82523B0010}.Debug|x64.Build.0 = Debug|Any CPU
+		{C074A984-022D-4158-AAC1-5B82523B0010}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C074A984-022D-4158-AAC1-5B82523B0010}.Debug|x86.Build.0 = Debug|Any CPU
+		{C074A984-022D-4158-AAC1-5B82523B0010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C074A984-022D-4158-AAC1-5B82523B0010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C074A984-022D-4158-AAC1-5B82523B0010}.Release|x64.ActiveCfg = Release|Any CPU
+		{C074A984-022D-4158-AAC1-5B82523B0010}.Release|x64.Build.0 = Release|Any CPU
+		{C074A984-022D-4158-AAC1-5B82523B0010}.Release|x86.ActiveCfg = Release|Any CPU
+		{C074A984-022D-4158-AAC1-5B82523B0010}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
