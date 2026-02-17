@@ -6,7 +6,7 @@ namespace TechFinanceira.Tests
 {
     public class ContaTests
     {
-        [Fact] // [Fact] avisa o C# que isso é um teste
+        [Fact]
         public void Debitar_DeveDiminuirSaldo_QuandoSaldoForSuficiente()
         {
             var conta = new Conta("João", 100); 
