@@ -26,7 +26,6 @@ namespace TechFinanceira.Tests
             Action act = () => conta.Debitar(100);
 
             // ASSERT
-            // Ajustado para InvalidOperationException para bater com sua classe Conta
             act.Should().Throw<InvalidOperationException>()
                 .WithMessage("Saldo insuficiente."); 
         }
